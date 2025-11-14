@@ -108,6 +108,7 @@ a {
     font-size: 30px;
     font-weight: normal;
     color: aqua;
+    text-decoration: none;
 }
 
     a.recommended {
