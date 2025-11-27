@@ -31,6 +31,11 @@ body {
     text-align: center;
     display: inline-block;
     margin: 10px;
+    vertical-align: top;
+}
+
+.credittext{
+    font-size: 20px;
 }
 
 .galleryicon {
