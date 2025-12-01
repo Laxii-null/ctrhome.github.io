@@ -2,7 +2,7 @@
             const container = document.querySelector(".rain");
             if (!container) return;
 
-            const candies = Array.from({length: 4}, (_, i) => `/img/particles/snow/${i + 1}.png`);
+            const candies = Array.from({length: 4}, (_, i) => `https://ctrhome.github.io/img/particles/snow/${i + 1}.png`);
             const drops = new Set();
 
             function createDrop() {

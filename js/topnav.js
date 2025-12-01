@@ -21,18 +21,18 @@
 
     // Add all links
     nav.appendChild(createLink("/", "", true, "https://ctrhome.github.io/img/logo_small.png"));
-    nav.appendChild(createLink("/games", "Games"));
-    nav.appendChild(createLink("/about", "About"));
-    nav.appendChild(createLink("/fan-projects", "Fan Projects"));
-    nav.appendChild(createLink("/play", "Play Online"));
-    // nav.appendChild(createLink("/modding", "Modding"));
-    nav.appendChild(createLink("/extras", "Extras"));
+    nav.appendChild(createLink("https://ctrhome.github.io/games", "Games"));
+    nav.appendChild(createLink("https://ctrhome.github.io/about", "About"));
+    nav.appendChild(createLink("https://ctrhome.github.io/fan-projects", "Fan Projects"));
+    nav.appendChild(createLink("https://ctrhome.github.io/play", "Play Online"));
+    // nav.appendChild(createLink("https://ctrhome.github.io/modding", "Modding"));
+    nav.appendChild(createLink("https://ctrhome.github.io/extras", "Extras"));
 
     //holiday stuff
     const snowScript = document.createElement('script');
     const snowDiv = document.createElement('div');
     snowDiv.classList.add('rain');
-    snowScript.src = "/js/rain.js";
+    snowScript.src = "https://ctrhome.github.io/js/rain.js";
     document.body.appendChild(snowDiv);
     document.body.appendChild(snowScript);
     
