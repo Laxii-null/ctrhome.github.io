@@ -62,8 +62,11 @@
                 <p>A small pack of nice levels to celebrate the holidays!</p>
                 <p><a href="https://x.com/TcdProjects">Tcd729</a> and Koxoo</p>
             </div>
-            <div class="fandiv">
+            <div class="fandiv" style="position:relative">
+                <div style="display:inline;position:relative;">
                             <img src="/img/icons/fan/ctr8.png" class="fanicon">
+                            <div class="ctr8div" style="width:100px;height:100px;vertical-align:center;margin:auto;position:absolute;bottom:70px;left:100px" data-copy="iburnafter8secsdidukthat"></div>
+                            </div>
                                 <a href="https://drive.google.com/file/d/1_nIrOIiz8pM_BP8bBYS3AljtuIySd6OU/view"><p>Cut the Rope 8</p></a>
                                 <center><img src="/img/icons/platforms/android.png" width="50" height="50" title="Android"></center>
                                 <p>A Cut the Rope Experiments mod with very high quality levels (near vanilla!)</p>
@@ -106,4 +109,14 @@
                             <p>by HeHe169</p>
                         </div>
     </center>
+    <script>
+document.querySelectorAll('.ctr8div').forEach(el => {
+    el.addEventListener('click', () => {
+        navigator.clipboard.writeText(el.dataset.copy).then(() => {
+            alert('Copied to clipboard!');
+        });
+    });
+});
+</script>
+
 </body>
